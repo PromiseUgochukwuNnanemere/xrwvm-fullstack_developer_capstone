@@ -58,3 +58,40 @@ The project includes both frontend and backend components, with services for CI/
    ```bash
    git clone https://github.com/PromiseUgochukwuNnanemere/xrwvm-fullstack_developer_capstone.git
    cd xrwvm-fullstack_developer_capstone
+
+2. **Install Dependencies**:
+
+   - For Python (Django backend and sentiment analysis):
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - For Node.js (Express dealership and review service):
+     ```bash
+     cd dealership-service
+     npm install
+     ```
+
+3. **Set Up Databases**:
+
+   - Initialize SQLite and MongoDB databases as required.
+
+4. **Run Services**:
+
+   - Start Django backend, Flask microservice, and Node.js service as separate processes.
+
+5. **Deploy**:
+
+   - Optionally deploy using Docker and Kubernetes (refer to `docker-compose.yml` and `k8s/` folder).
+
+## Usage
+
+Visit the homepage to browse dealerships and reviews, or register and log in to post a review. State filtering and sentiment insights enhance the user experience, making it easy to explore dealership feedback nationwide.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or create a pull request to suggest improvements.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
